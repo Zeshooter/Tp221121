@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8" />
+    <title>Tp 22112021</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+
+<body>
+<header>
+        <h1>Accueil</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./index.html#article3">Blog</a></li>
+                <li><a href="https://www.google.fr" target="_blank">Galerie</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+
+<form action=/mapage.php method="post">
+    <fieldset>Remplissez la fiche de contact :
+    <div> 
+        <label for="nom">Nom:<abbr title="obligatoire">*</abbr></label>
+        <input type="text" id="nom" name="nom" placeholder="nom" minlength="2" maxlength="20" required>
+    </div>
+    
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="mail" id="mail" name="mail" placeholder="Entrer Votre Adresse E-mail">
+    </div>
+        
+    <div>
+        <label for="Texte">Commentaire :</label>
+        <textarea id="comment" rows="10" cols="70" placeholder="Entrer votre commentaire ici"></textarea>
+    </div>
+
+    <div>
+        <input type="checkbox" id="check1" name="check1" checked>
+        <label for="check1">Envoyer une copie</label>
+    </div>
+    
+    <div>
+        <input type="submit" value="envoyer">
+        <input type="reset" value="reset">
+    </div>
+    </fieldset>
+</form>
+
+<footer>
+    <ul>
+        <li><a href="https://www.google.fr">Chercher</a></li>
+        <li><a href="https://www.google.fr">Trouver</a></li>
+        <li><a href="https://www.google.fr">Apprendre</a></li>
+    </ul>
+</footer>
+</body>

@@ -1,0 +1,61 @@
+
+header {
+    width: 800px;
+    height: 200px;
+    text-align: center;
+}
+img {
+    width:200px;
+    height:100px;
+    border : 2px solid #2B2D42;
+}
+
+div {
+    text-align:center;
+   
+}
+
+h1 {
+    color : #EF233C;
+    font-size : 70px;
+    font-family :impact;
+    font-weight : bolder;
+}
+
+h3 {
+    color: #2B2D42;
+    font-size:30px;
+    font-weight: bolder;
+    text-decoration : underline dotted;
+}
+
+p {
+    border : 1px solid;
+}
+
+footer {
+    text-align: right;
+}
+
+body {
+    background-image: radial-gradient(circle at top ,#CCDAE0  , #EDF2F4);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    color :#D90429;
+}
+a:visited{
+    color:grey;
+}
+a:hover{
+    color:#2B2D42;
+}
+
+label abbr {
+    color :red;
+}
+
