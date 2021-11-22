@@ -47,6 +47,20 @@ ul {
     list-style-type: none;
 }
 
+fieldset{
+    border:none;
+}
+
+input, label{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top:10px
+}
+
+textarea{
+    margin-top: 30px;
+}
+
 a{
     color :#D90429;
 }
@@ -63,5 +77,9 @@ label abbr {
 
 form {
     border : 5px black solid;
+}
+
+#button{
+    text-align:center;
 }
 

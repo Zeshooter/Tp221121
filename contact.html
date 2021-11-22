@@ -22,7 +22,8 @@
 </header>
 
 <form action=/mapage.php method="post">
-    <fieldset>Remplissez la fiche de contact :
+    <fieldset>
+        <legend>Remplissez la fiche de contact:</legend>    
     <div> 
         <label for="nom">Nom:<abbr title="obligatoire">*</abbr></label>
         <input type="text" id="nom" name="nom" placeholder="nom" minlength="2" maxlength="20" required>
@@ -31,10 +32,11 @@
     <div>
         <label for="mail">E-mail:</label>
         <input type="mail" id="mail" name="mail" placeholder="Entrer Votre Adresse E-mail">
+        
     </div>
         
     <div>
-        <label for="Texte">Commentaire :</label>
+        <label for="comment">Laissez votre commentaire ici :</label>
         <textarea id="comment" rows="10" cols="70" placeholder="Entrer votre commentaire ici"></textarea>
     </div>
 
@@ -43,7 +45,7 @@
         <label for="check1">Envoyer une copie</label>
     </div>
     
-    <div>
+    <div id="button">
         <input type="submit" value="envoyer">
         <input type="reset" value="reset">
     </div>
